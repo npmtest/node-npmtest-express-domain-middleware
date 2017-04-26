@@ -1,6 +1,6 @@
 # npmtest-express-domain-middleware
 
-#### test coverage for  [express-domain-middleware (v0.1.0)](https://github.com/brianc/node-domain-middleware#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-domain-middleware.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-domain-middleware) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-domain-middleware.svg)](https://travis-ci.org/npmtest/node-npmtest-express-domain-middleware)
+#### basic test coverage for  [express-domain-middleware (v0.1.0)](https://github.com/brianc/node-domain-middleware#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-express-domain-middleware.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-express-domain-middleware) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-express-domain-middleware.svg)](https://travis-ci.org/npmtest/node-npmtest-express-domain-middleware)
 
 #### wrap express request/response with node domains
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-express-domain-middleware/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-express-domain-middleware/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-express-domain-middleware/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-express-domain-middleware/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-domain-middleware/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-domain-middleware/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-express-domain-middleware/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-express-domain-middleware/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-express-domain-middleware/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-express-domain-middleware/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-express-domain-middleware/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-express-domain-middleware/build/coverage.html/index.html)
 
@@ -79,7 +79,8 @@
     "scripts": {
         "test": "npm install express && mocha"
     },
-    "version": "0.1.0"
+    "version": "0.1.0",
+    "bin": {}
 }
 ```
 
